@@ -36,19 +36,19 @@ Educational red team link tracking framework for authorized security training.
 
 ### Using pipx (Recommended)
 ```bash
-pipx install git+https://github.com/yourusername/redcross.git
+pipx install git+https://github.com/Wangsa779/RED-CROSS-project.git
 ```
 
 ### From source
 ```bash
-git clone https://github.com/yourusername/redcross.git
+git clone https://github.com/Wangsa779/RED-CROSS-project.git
 cd redcross
 pipx install .
 ```
 
 ### Traditional pip
 ```bash
-pip install git+https://github.com/yourusername/redcross.git
+pip install git+https://github.com/Wangsa779/RED-CROSS-project.git
 ```
 
 ## Usage
