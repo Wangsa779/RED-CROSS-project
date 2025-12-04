@@ -76,10 +76,6 @@ redcross -g -u https://tiktok.com/@user/video/123 -c test1
 - Authorized use only
 - Isolated VM environment required
 
-## License
-
-MIT License - For educational purposes only
-
 ## Warning
 
 ⚠️ This tool is for authorized security training and red team exercises only.
