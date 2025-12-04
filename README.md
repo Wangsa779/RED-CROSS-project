@@ -75,6 +75,7 @@ redcross -g -u https://tiktok.com/@user/video/123 -c test1
 - Python 3.7+
 - Authorized use only
 - Isolated VM environment required
+- pipx
 
 ## Warning
 
