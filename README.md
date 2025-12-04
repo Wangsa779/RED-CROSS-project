@@ -1,5 +1,5 @@
 # RED-CROSS-project
-information gathering and tracker tools specifically made for pentester and security researcher
+Inspired by geowifi and other awesome tools, this tools is information gathering and tracker tools specifically made for pentester and security researcher
 
     ██████╗ ███████╗██████╗        ██████╗██████╗  ██████╗ ███████╗███████╗
     ██╔══██╗██╔════╝██╔══██╗      ██╔════╝██╔══██╗██╔═══██╗██╔════╝██╔════╝
