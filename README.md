@@ -28,5 +28,61 @@ Select Attack Mode:
   
   [0] Exit
 
-redtrack> 
+# Red-Cross Link Tracker
+
+Educational red team link tracking framework for authorized security training.
+
+## Installation
+
+### Using pipx (Recommended)
+```bash
+pipx install git+https://github.com/yourusername/redcross.git
+```
+
+### From source
+```bash
+git clone https://github.com/yourusername/redcross.git
+cd redcross
+pipx install .
+```
+
+### Traditional pip
+```bash
+pip install git+https://github.com/yourusername/redcross.git
+```
+
+## Usage
+
+After installation, run from anywhere:
+```bash
+# Interactive mode
+redcross
+
+# Command line mode
+redcross -h
+redcross -g -u https://tiktok.com/@user/video/123 -c test1
+```
+
+## Modes
+
+- **Basic**: Simple redirect tracking
+- **Advanced**: Device fingerprinting + geolocation
+- **Stealth**: Mimics URL shorteners
+- **Ghost**: Zero footprint iframe injection
+
+## Requirements
+
+- Python 3.7+
+- Authorized use only
+- Isolated VM environment required
+
+## License
+
+MIT License - For educational purposes only
+
+## Warning
+
+⚠️ This tool is for authorized security training and red team exercises only.
+Unauthorized use may violate laws and regulations.
+"""
 
