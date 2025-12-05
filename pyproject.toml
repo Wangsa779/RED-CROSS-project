@@ -1,35 +1,35 @@
-# pyproject.toml
 [build-system]
-requires = ["setuptools>=45", "wheel"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "redcross"
+name = "redtrack"
 version = "2.1.0"
-description = "Red-Cross Link Tracker - Educational Red Team Training Tool"
+description = "Professional link tracking framework for authorized security testing"
 readme = "README.md"
-requires-python = ">=3.7"
-license = {text = "MIT"}
-authors = [
-    {name = "Wangsa", email = "dostoyevsky79@proton.me"}
-]
-keywords = ["security", "pentest", "red-team", "training"]
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Information Technology",
-    "Topic :: Security",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
+requires-python = ">=3.8"
+dependencies = [
+    "flask>=2.3.0",
+    "flask-cors>=4.0.0",
+    "requests>=2.31.0",
+    "pyngrok>=5.0.0",
+    "user-agents>=2.2.0",
+    "pillow>=10.0.0",
+    "python-dotenv>=1.0.0",
 ]
 
-[project.scripts]
-redcross = "redcross.main:main"
+[project.optional-dependencies]
+dev = [
+    "black>=23.7.0",
+    "pytest>=7.4.0",
+]
 
 [project.urls]
-Homepage = "https://github.com/Wangsa779/RED-CROSS-project"
-Repository = "https://github.com/Wangsa779/RED-CROSS-project"
+Homepage = "https://github.com/yourusername/redtrack"
+Repository = "https://github.com/yourusername/redtrack"
+
+[tool.setuptools]
+packages = ["redtrack"]
+
+[tool.setuptools.package-dir]
+redtrack = "."
